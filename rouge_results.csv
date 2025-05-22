@@ -1,0 +1,7 @@
+Model,Style,ROUGE-1,ROUGE-2,ROUGE-L
+OpenAI (gpt-3.5-turbo),zero_shot,0.367,0.063,0.190
+OpenAI (gpt-3.5-turbo),role_based,0.383,0.077,0.202
+OpenAI (gpt-3.5-turbo),chain_of_thought,0.330,0.051,0.180
+Local T5 (t5-small),zero_shot,0.219,0.043,0.140
+Local T5 (t5-small),role_based,0.200,0.036,0.132
+Local T5 (t5-small),chain_of_thought,0.248,0.046,0.140

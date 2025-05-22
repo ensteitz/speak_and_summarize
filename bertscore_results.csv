@@ -1,0 +1,7 @@
+Model,Style,BERTScore P,BERTScore R,BERTScore F1
+OpenAI (gpt-3.5-turbo),zero_shot,0.211,0.145,0.179
+OpenAI (gpt-3.5-turbo),role_based,0.261,0.155,0.209
+OpenAI (gpt-3.5-turbo),chain_of_thought,0.057,0.097,0.078
+Local T5 (t5-small),zero_shot,0.101,0.022,0.063
+Local T5 (t5-small),role_based,0.083,0.023,0.054
+Local T5 (t5-small),chain_of_thought,0.121,0.024,0.074
